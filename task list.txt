@@ -1,0 +1,12 @@
+1] Platform/
+2] Flying Platform 
+3] background/
+3] Player
+4] Garbage
+5] Enemy
+6] Checkpoint
+7] Game mechanics(Player movement, Gcollection, Game score, (Enemy Touching, Chckpoint touching))
+
+platfrom
+player
+images
