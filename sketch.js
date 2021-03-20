@@ -1,3 +1,14 @@
+var platform, airPlatform, platfromImage, airPlatformImage, rewardPlatform, rewardPlatformImage;
+var backgroundImage, back;
+var player, playerImage;
+var rightArrow, leftArrow,jump, rightArrowImage, leftArrowImage, jumpImage;
+var trash, trashgroup, trash1Image, trash2Image, trash3Image;
+var airGroup, rewardGroup;
+var barrier, endBarrier;
+var inventory=0;
+
+
+
 function preload(){
   platformImage = loadImage("images/platform.png");
   airPlatformImage = loadImage("images/airplatform.png");
@@ -25,10 +36,10 @@ function setup() {
   rightArrow.addImage(rightArrowImage);
   rightArrow.scale=0.5;
 
-  barrier=createSprite(10, height/2, 10, height10);
+  barrier=createSprite(10, height/2, 10, height*10);
   barrier.visible=false;
 
-  endBarrier=createSprite(16105.5, height\2, 10, height10);
+  endBarrier=createSprite(16105, height/2, 10, height*10);
 
   airGroup=new Group();
   rewardGroup=new Group();
